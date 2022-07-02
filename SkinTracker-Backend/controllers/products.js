@@ -120,7 +120,7 @@ function dateSort(){
       break;
       default:
         // code block
-          array = employees;
+          array = skins;
       }
       return array;
       res.json(array);
