@@ -1,8 +1,8 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "Lab CI0137 - API",
-    "description": "Este es el API del laboratorio de backend del curso de CI0137",
+    "title": "SkinTracker - API",
+    "description": "Este es el API del proyecto SkinTracker de backend del curso de CI0137",
     "version": "1.0.0"
   },
   "host": "localhost:7500",
@@ -187,19 +187,26 @@
         }
       }
     },
-    "/products/": {
+    "/products/Skins": {
       "post": {
         "tags": [
-          "Product"
+          "Users"
         ],
         "description": "",
         "parameters": [
           {
-            "name": "obj",
+            "name": "body",
             "in": "body",
-            "description": "Create a product",
             "schema": {
-              "$ref": "#/definitions/AddProduct"
+              "type": "object",
+              "properties": {
+                "length": {
+                  "example": "any"
+                },
+                "products": {
+                  "example": "any"
+                }
+              }
             }
           }
         ],
@@ -207,13 +214,20 @@
           "200": {
             "description": "OK"
           },
-          "422": {
-            "description": "Unprocessable Entity"
-          },
           "500": {
             "description": "Internal Server Error"
           }
         }
+      }
+    },
+    "/products/Skin": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "description": "",
+        "parameters": [],
+        "responses": {}
       }
     }
   },

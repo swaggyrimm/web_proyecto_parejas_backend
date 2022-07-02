@@ -1,6 +1,9 @@
 const express = require("express");
 const {
   createProduct,
+  getSkinById,
+  listSkins,
+  filterSearch,
 } = require("../controllers/products");
 const { userIsAuthenticated, userIsInRole } = require("../middlewares/auth");
 const { ROLES } = require("../utils/constants");
@@ -11,6 +14,10 @@ const {
 
 const router = express.Router();
 
-router.route("/").post([validateSchema(createProductSchema)], createProduct);
+//router.route("/").post([validateSchema(createProductSchema)], createProduct);
+router.route("/Skins").post(listSkins);
+//router.route("/Skins").patch(filterSearch);
+router.route("/Skin").post(getSkinById);
+router.route("/Skins").post(listSkins);
 
 module.exports = router;
