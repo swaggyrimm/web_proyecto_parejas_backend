@@ -15,9 +15,9 @@ const {
 const router = express.Router();
 
 //router.route("/").post([validateSchema(createProductSchema)], createProduct);
-router.route("/Skins").post(listSkins);
+//router.route("/Skins").post(listSkins);
 //router.route("/Skins").patch(filterSearch);
 router.route("/Skin").post(getSkinById);
-router.route("/Skins").post(listSkins);
+router.route("/Skins").get(listSkins);
 
 module.exports = router;

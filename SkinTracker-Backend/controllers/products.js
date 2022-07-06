@@ -38,8 +38,9 @@ exports.createProduct = async (req, res) => {
     // #swagger.tags = ['Users']}
     try {
       const productPayload = req.body;
+      
       //skins es un arreglo, el arreglo donde busco el objeto del API
-      const result = skins.find(skin => skin.id === id);
+      const result = skins.find(skin => skin.id === productPayload.id);
       res.json(result);
     } catch (error) {
       res.status(500).send("Server error: " + error);
@@ -50,16 +51,9 @@ exports.createProduct = async (req, res) => {
   exports.listSkins = async (req, res) => {
     // #swagger.tags = ['Users']
     try {
-      var array = [];
-      const productPayload = req.body;
-      for(var i = 0; i < productPayload.length; i++){
-        Object.keys(productPayload.products[i]).forEach(function(key){
-          if(array.indexOf(key) == -1){
-            array.push(key);
-          }
-        });
-      }
-      const result = array;
+      //var array = [];
+      const productPayload = req.body;//es necesario si es un get?
+      const result = skins//devolvería el arreglo completo;
       res.json(result);
     } catch (error) {
       res.status(500).send("Server error: " + error);
@@ -99,10 +93,12 @@ function dateSort(){
 }
 
   //se supone que existen funciones que lo hacen en npm
-  exports.filterSearch = async (req, res) => {
+  exports.filterSearch = async (req, res) => {//haríamos este método en lugar de un getSkins general?
     // #swagger.tags = ['Users']
     try {
       //filter me imagino que viene del payload
+      const filterPayload = req.body;
+      const filter = filterPayload.filter;
       let array = [];
       switch(filter) {
       case "price":
@@ -122,7 +118,7 @@ function dateSort(){
         // code block
           array = skins;
       }
-      return array;
+      //return array;
       res.json(array);
     } catch (error) {
       res.status(500).send("Server error: " + error);

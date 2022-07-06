@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "title": "SkinTracker - API",
-    "description": "Este es el API del proyecto SkinTracker de backend del curso de CI0137",
+    "description": "Este es el API del proyecto SkinTracker del curso de CI0137",
     "version": "1.0.0"
   },
   "host": "localhost:7500",
