@@ -1,46 +1,19 @@
+const skins = require("../skins.json");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const { sendRecoveryCodeEmail } = require("../services/mailService");
 const db = require("../models/index");
 const saltRounds = 10;
 
-exports.createProduct = async (req, res) => {
-  // #swagger.tags = ['Product']
-  /*  #swagger.parameters['obj'] = {
-          in: 'body',
-          description: 'Create a product',
-          schema: { $ref: '#/definitions/AddProduct' }
-  } */
-  try {
-    const productPayload = req.body;
-    /*const newUser = await db.User.create({
-      name: userPayload.name,
-      email: userPayload.email,
-      password: await bcrypt.hash(userPayload.password, saltRounds),
-      phoneCountryCode: userPayload.phoneCountryCode,
-      phone: userPayload.phone,
-      birthdate: new Date(userPayload.birthdate),
-    });*/
-    res.json(productPayload);
-  } catch (error) {
-    res.status(500).json({
-      message: "Ocurrió un error al insertar el usuario.",
-      error,
-    });
-    return;
-  }
-
-};
-
 
   // quiero conseguir la skin en específico que me mandan a busacr
   exports.getSkinById = async (req, res) => {
     // #swagger.tags = ['Users']}
     try {
-      const productPayload = req.body;
+      const skinId = req.param.id;
       
       //skins es un arreglo, el arreglo donde busco el objeto del API
-      const result = skins.find(skin => skin.id === productPayload.id);
+      const result = skins.find(skin => skin.id === skinId.id);
       res.json(result);
     } catch (error) {
       res.status(500).send("Server error: " + error);
@@ -52,8 +25,8 @@ exports.createProduct = async (req, res) => {
     // #swagger.tags = ['Users']
     try {
       //var array = [];
-      const productPayload = req.body;//es necesario si es un get?
-      const result = skins//devolvería el arreglo completo;
+      const productPayload = req.param.filter;//es necesario si es un get?
+      const result = skins;//devolvería el arreglo completo;
       res.json(result);
     } catch (error) {
       res.status(500).send("Server error: " + error);
@@ -63,15 +36,15 @@ exports.createProduct = async (req, res) => {
   //sort ints(prices) descending
 function priceSort(){
   return skins.sort((a, b) => {
-    return a.RP - b.RP;
+    return a.rp - b.rp;
   });
 }
 
 //sort strings(names)
 function nameSort(){
   return skins.sort((a, b) => {
-    let fa = a.name.toLowerCase(),
-        fb = b.name.toLowerCase();
+    let fa = a.skin.toLowerCase(),
+        fb = b.skin.toLowerCase();
 
     if (fa < fb) {
         return -1;
@@ -97,10 +70,10 @@ function dateSort(){
     // #swagger.tags = ['Users']
     try {
       //filter me imagino que viene del payload
-      const filterPayload = req.body;
-      const filter = filterPayload.filter;
+      const sort = req.query.filter;
+      console.log(sort)
       let array = [];
-      switch(filter) {
+      switch(sort) {
       case "price":
         // code block
         array = priceSort();

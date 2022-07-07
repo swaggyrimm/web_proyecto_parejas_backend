@@ -38,7 +38,7 @@ server.use(cors());
 
 //Mount routes
 server.use("/users", usersRoutes);
-server.use("/products", productsRoutes);
+server.use("/skins", productsRoutes);
 
 //Documentation setup
 server.use("/docs", swaggerUI.serve, swaggerUI.setup(swaggerFile));
