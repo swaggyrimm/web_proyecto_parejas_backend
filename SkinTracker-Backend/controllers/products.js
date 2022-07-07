@@ -10,8 +10,8 @@ const saltRounds = 10;
   exports.getSkinById = async (req, res) => {
     // #swagger.tags = ['Users']}
     try {
-      const skinId = req.param.id;
-      
+      const skinId = parseInt(req.query.id);
+      console.log(req.query.id)
       //skins es un arreglo, el arreglo donde busco el objeto del API
       const result = skins.find(skin => skin.id === skinId.id);
       res.json(result);
@@ -71,7 +71,7 @@ function dateSort(){
     try {
       //filter me imagino que viene del payload
       const sort = req.query.filter;
-      console.log(sort)
+      //console.log(sort)
       let array = [];
       switch(sort) {
       case "price":
