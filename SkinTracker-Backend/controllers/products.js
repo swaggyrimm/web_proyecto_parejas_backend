@@ -6,6 +6,32 @@ const db = require("../models/index");
 const saltRounds = 10;
 
 
+  function totalPages(){
+    return Math.ceil(skins.length/10);
+  }
+
+  function change(page){
+    const items = [];
+    if (page < 1) page = 1;
+    if (page > totalPages()) page = totalPages();
+    for(let i = (page-1) * 10; i < (page * 10) && i < skins.length; i++){
+      items.push(skins[i]);
+    }
+    return items;
+  }
+
+  function latestSkins(page, num){
+    const items = [];
+    const result = [];
+    if (page < 1) page = 1;
+    console.log(num + "items")
+    items = dateSort();
+    for(let i = 0; i < num && i < skins.length; i++){
+      result.push(items[i]);
+    }
+    return items;
+  }
+
   // quiero conseguir la skin en específico que me mandan a busacr
   exports.getSkinById = async (req, res) => {
     // #swagger.tags = ['Users']}
@@ -71,8 +97,9 @@ function dateSort(){
     try {
       //filter me imagino que viene del payload
       const sort = req.query.filter;
-      //console.log(sort)
+      
       let array = [];
+      //let items = req.query.items;
       switch(sort) {
       case "price":
         // code block
@@ -91,8 +118,11 @@ function dateSort(){
         // code block
           array = skins;
       }
-      //return array;
-      res.json(array);
+      const page = req.query.page;
+      //console.log(page)
+      //items = change(page,items);
+      items = change(page);//preguntar si así paso un arreglo por param
+      res.json(items);
     } catch (error) {
       res.status(500).send("Server error: " + error);
     }
