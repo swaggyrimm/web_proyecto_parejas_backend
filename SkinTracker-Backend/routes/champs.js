@@ -4,7 +4,7 @@ const {
   getSkinById,
   latestSkins,
   filterSearch,
-} = require("../controllers/products");
+} = require("../controllers/champs");
 const { userIsAuthenticated, userIsInRole } = require("../middlewares/auth");
 const { ROLES } = require("../utils/constants");
 const { validateSchema } = require("../middlewares/validation");
