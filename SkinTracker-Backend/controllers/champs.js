@@ -24,8 +24,7 @@ const saltRounds = 10;
   exports.getSkinById = async (req, res) => {
     // #swagger.tags = ['Users']}
     try {
-      const skinId = parseInt(req.query.id);
-      console.log(req.query.id)
+      const skinId = parseInt(req.params.id);
       //skins es un arreglo, el arreglo donde busco el objeto del API
       const result = skins.find(skin => skin.id === skinId.id);
       res.json(result);
