@@ -29,6 +29,7 @@ const upload = multer({
 
 const usersRoutes = require("./routes/users");
 const productsRoutes = require("./routes/products");
+const champsRoutes = require("./routes/champs");
 const swaggerFile = require("./swagger.json");
 
 const server = express();
@@ -39,6 +40,7 @@ server.use(cors());
 //Mount routes
 server.use("/users", usersRoutes);
 server.use("/skins", productsRoutes);
+server.use("/champs", champsRoutes);
 
 //Documentation setup
 server.use("/docs", swaggerUI.serve, swaggerUI.setup(swaggerFile));
