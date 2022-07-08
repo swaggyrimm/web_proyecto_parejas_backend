@@ -10,24 +10,12 @@ const saltRounds = 10;
     return Math.ceil(skins.length/10);
   }
 
-  function change(page){
+  function change(page, num){
     const items = [];
     if (page < 1) page = 1;
     if (page > totalPages()) page = totalPages();
-    for(let i = (page-1) * 10; i < (page * 10) && i < skins.length; i++){
+    for(let i = (page-1) * num; i < (page * num) && i < skins.length; i++){
       items.push(skins[i]);
-    }
-    return items;
-  }
-
-  function latestSkins(page, num){
-    const items = [];
-    const result = [];
-    if (page < 1) page = 1;
-    console.log(num + "items")
-    items = dateSort();
-    for(let i = 0; i < num && i < skins.length; i++){
-      result.push(items[i]);
     }
     return items;
   }
@@ -92,14 +80,14 @@ function dateSort(){
 }
 
   //se supone que existen funciones que lo hacen en npm
-  exports.filterSearch = async (req, res) => {//haríamos este método en lugar de un getSkins general?
+  exports.filterSearch = async (req, res) => {
     // #swagger.tags = ['Users']
     try {
       //filter me imagino que viene del payload
       const sort = req.query.filter;
-      
+      const numItems = parseInt(req.query.items);
       let array = [];
-      //let items = req.query.items;
+      let items = [];
       switch(sort) {
       case "price":
         // code block
@@ -121,7 +109,7 @@ function dateSort(){
       const page = req.query.page;
       //console.log(page)
       //items = change(page,items);
-      items = change(page);//preguntar si así paso un arreglo por param
+      items = change(page, numItems);//preguntar si así paso un arreglo por param
       res.json(items);
     } catch (error) {
       res.status(500).send("Server error: " + error);
