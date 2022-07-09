@@ -2,7 +2,7 @@
   "name": "lab-api-002",
   "version": "1.0.0",
   "description": "Api de prueba para el curso CI-0137",
-  "main": "server.js",
+  "main": "SkinTracker-Backend/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
