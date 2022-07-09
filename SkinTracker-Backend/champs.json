@@ -1,68 +1,59 @@
 [
     {
       "id": 1,
-      "skin": "Jax Baston Divino",
-      "image": "",
-      "rp": 1350
+      "name": "Annie",
+      "title": "la hija de la oscuridad",
+      "thumbnail": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251",
+      "image": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251"
     },
     {
       "id": 2,
-      "skin": "Jax Baston Divino",
-      "image": "",
-      "rp": 150
+      "name": "Ekko",
+      "title": "el joven que fragmentó el tiempo",
+      "thumbnail": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251",
+      "image": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251"
     },
     {
       "id": 3,
-      "skin": "Jax Baston Divino",
-      "image": "",
-      "rp": 350
+      "name": "Jax",
+      "title": "el maestro de armas",
+      "thumbnail": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251",
+      "image": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251"
     },
     {
       "id": 4,
-      "skin": "Jax Baston Divino",
-      "image": "",
-      "rp": 1350
+      "name": "Jinx",
+      "title": "la bala perdida",
+      "thumbnail": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251",
+      "image": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251"
     },
     {
       "id": 5,
-      "skin": "Jax Baston Divino",
-      "image": "",
-      "rp": 1350
+      "name": "Taliyah",
+      "title": "la tejedora de piedra",
+      "thumbnail": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251",
+      "image": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251"
     },
     {
       "id": 6,
-      "skin": "Jax Baston Divino",
-      "image": "",
-      "rp": 1350
+      "name": "Vi",
+      "title": "la vigilidante de Piltóver",
+      "thumbnail": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251",
+      "image": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251"
     },
     {
       "id": 7,
-      "skin": "Jax Baston Divino",
-      "image": "",
-      "rp": 1350
+      "name": "Yasuo",
+      "title": "el imperdonable",
+      "thumbnail": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251",
+      "image": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251"
     },
     {
       "id": 8,
-      "skin": "Jax Baston Divino",
-      "image": "",
-      "rp": 1350
-    },
-    {
-      "id": 9,
-      "skin": "Jax Baston Divino",
-      "image": "",
-      "rp": 1350
-    },
-    {
-      "id": 10,
-      "skin": "Jax Baston Divino",
-      "image": "",
-      "rp": 1350
-    },
-    {
-      "id": 11,
-      "skin": "Jax Baston Divino",
-      "image": "",
-      "rp": 1
+      "name": "Yone",
+      "title": "el imborrable",
+      "thumbnail": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251",
+      "image": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251"
     }
   ]
+

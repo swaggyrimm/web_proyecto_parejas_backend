@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "title": "SkinTracker - API",
-    "description": "Este es el API del proyecto SkinTracker del curso de CI0137",
+    "description": "Este es el API del proyecto SkinTracker de backend del curso de CI0137",
     "version": "1.0.0"
   },
   "host": "localhost:7500",
@@ -12,26 +12,37 @@
     "https"
   ],
   "paths": {
+    "/upload": {
+      "post": {
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/skins/": {
       "get": {
         "tags": [
-          "Skins"
+          "Users"
         ],
         "description": "",
         "parameters": [
           {
             "name": "filter",
-            "in": "header",
-            "type": "string"
-          },
-          {
-            "name": "page",
-            "in": "header",
+            "in": "query",
             "type": "string"
           },
           {
             "name": "items",
-            "in": "header",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "page",
+            "in": "query",
             "type": "string"
           }
         ],
@@ -45,49 +56,43 @@
         }
       }
     },
-    "/skins/:id": {
+    "/skins/{id}": {
       "get": {
         "tags": [
-          "Skin"
+          "Users"
         ],
         "description": "",
         "parameters": [
           {
             "name": "id",
-            "in": "header",
+            "in": "path",
+            "required": true,
             "type": "string"
           }
         ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          },
-          "500": {
-            "description": "Internal Server Error"
-          }
-        }
+        "responses": {}
       }
     },
     "/champs/": {
       "get": {
         "tags": [
-          "Champs"
+          "Users"
         ],
         "description": "",
         "parameters": [
           {
             "name": "filter",
-            "in": "header",
-            "type": "string"
-          },
-          {
-            "name": "page",
-            "in": "header",
+            "in": "query",
             "type": "string"
           },
           {
             "name": "items",
-            "in": "header",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "page",
+            "in": "query",
             "type": "string"
           }
         ],
@@ -101,30 +106,66 @@
         }
       }
     },
-    "/champs/:id": {
+    "/champs/{id}": {
       "get": {
         "tags": [
-          "Champ"
+          "Users"
         ],
         "description": "",
         "parameters": [
           {
             "name": "id",
-            "in": "header",
+            "in": "path",
+            "required": true,
             "type": "string"
           }
         ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          },
-          "500": {
-            "description": "Internal Server Error"
-          }
+        "responses": {}
+      }
+    }
+  },
+  "definitions": {
+    "GetSkin": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "example": "Nombre del skin"
+        },
+        "price": {
+          "type": "number",
+          "example": 9999
+        },
+        "description": {
+          "type": "string",
+          "example": "Lorem ipsum kljdsf adsf asf adsf"
+        },
+        "picture": {
+          "type": "string",
+          "example": "https://domain.com/picture.jpg"
+        }
+      }
+    },
+    "GetChamp": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "example": "Nombre del champ"
+        },
+        "price": {
+          "type": "number",
+          "example": 9999
+        },
+        "description": {
+          "type": "string",
+          "example": "Lorem ipsum kljdsf adsf asf adsf"
+        },
+        "picture": {
+          "type": "string",
+          "example": "https://domain.com/picture.jpg"
         }
       }
     }
-    
   }
-  
 }
