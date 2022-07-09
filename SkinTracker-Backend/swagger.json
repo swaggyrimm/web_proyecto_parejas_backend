@@ -23,7 +23,7 @@
         }
       }
     },
-    "/users/": {
+    "/skins/": {
       "get": {
         "tags": [
           "Users"
@@ -31,7 +31,7 @@
         "description": "",
         "parameters": [
           {
-            "name": "authorization",
+            "name": "filter",
             "in": "header",
             "type": "string"
           }
