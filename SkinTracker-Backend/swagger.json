@@ -30,7 +30,7 @@
             "type": "string"
           },
           {
-            "name": "item",
+            "name": "items",
             "in": "header",
             "type": "string"
           }
@@ -43,167 +43,19 @@
             "description": "Internal Server Error"
           }
         }
-      },
-      "post": {
-        "tags": [
-          "Users"
-        ],
-        "description": "",
-        "parameters": [
-          {
-            "name": "obj",
-            "in": "body",
-            "description": "Add a user",
-            "schema": {
-              "$ref": "#/definitions/AddUser"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          },
-          "422": {
-            "description": "Unprocessable Entity"
-          },
-          "500": {
-            "description": "Internal Server Error"
-          }
-        }
       }
     },
-    "/users/login": {
-      "post": {
+    "/skins/:id": {
+      "get": {
         "tags": [
-          "Users"
+          "Skin"
         ],
         "description": "",
         "parameters": [
           {
-            "name": "body",
-            "in": "body",
-            "schema": {
-              "type": "object",
-              "properties": {
-                "email": {
-                  "example": "any"
-                },
-                "password": {
-                  "example": "any"
-                }
-              }
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          },
-          "401": {
-            "description": "Unauthorized"
-          },
-          "500": {
-            "description": "Internal Server Error"
-          }
-        }
-      }
-    },
-    "/users/recover-password": {
-      "post": {
-        "tags": [
-          "Users"
-        ],
-        "description": "",
-        "parameters": [
-          {
-            "name": "body",
-            "in": "body",
-            "schema": {
-              "type": "object",
-              "properties": {
-                "email": {
-                  "example": "any"
-                }
-              }
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          },
-          "401": {
-            "description": "Unauthorized"
-          },
-          "500": {
-            "description": "Internal Server Error"
-          }
-        }
-      }
-    },
-    "/users/reset-password": {
-      "patch": {
-        "tags": [
-          "Users"
-        ],
-        "description": "",
-        "parameters": [
-          {
-            "name": "body",
-            "in": "body",
-            "schema": {
-              "type": "object",
-              "properties": {
-                "email": {
-                  "example": "any"
-                },
-                "code": {
-                  "example": "any"
-                },
-                "password": {
-                  "example": "any"
-                }
-              }
-            }
-          }
-        ],
-        "responses": {
-          "204": {
-            "description": "No Content"
-          },
-          "401": {
-            "description": "Unauthorized"
-          },
-          "422": {
-            "description": "Unprocessable Entity"
-          },
-          "500": {
-            "description": "Internal Server Error"
-          }
-        }
-      }
-    },
-    "/products/Skins": {
-      "post": {
-        "tags": [
-          "Users"
-        ],
-        "description": "",
-        "parameters": [
-          {
-            "name": "body",
-            "in": "body",
-            "schema": {
-              "type": "object",
-              "properties": {
-                "length": {
-                  "example": "any"
-                },
-                "products": {
-                  "example": "any"
-                }
-              }
-            }
+            "name": "id",
+            "in": "header",
+            "type": "string"
           }
         ],
         "responses": {
@@ -216,67 +68,63 @@
         }
       }
     },
-    "/products/Skin": {
-      "post": {
+    "/champs/": {
+      "get": {
         "tags": [
-          "Users"
+          "Champs"
         ],
         "description": "",
-        "parameters": [],
-        "responses": {}
-      }
-    }
-  },
-  "definitions": {
-    "AddUser": {
-      "type": "object",
-      "properties": {
-        "name": {
-          "type": "string",
-          "example": "CI0137"
-        },
-        "email": {
-          "type": "string",
-          "example": "cloud@polpocr.com"
-        },
-        "password": {
-          "type": "string",
-          "example": "patito"
-        },
-        "phoneCountryCode": {
-          "type": "number",
-          "example": 506
-        },
-        "phone": {
-          "type": "number",
-          "example": 70155104
-        },
-        "birthdate": {
-          "type": "string",
-          "example": "1989-10-16"
+        "parameters": [
+          {
+            "name": "filter",
+            "in": "header",
+            "type": "string"
+          },
+          {
+            "name": "page",
+            "in": "header",
+            "type": "string"
+          },
+          {
+            "name": "items",
+            "in": "header",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
         }
       }
     },
-    "AddProduct": {
-      "type": "object",
-      "properties": {
-        "name": {
-          "type": "string",
-          "example": "Nombre del producto"
-        },
-        "price": {
-          "type": "number",
-          "example": 9999
-        },
-        "description": {
-          "type": "string",
-          "example": "Lorem ipsum kljdsf adsf asf adsf"
-        },
-        "picture": {
-          "type": "string",
-          "example": "https://domain.com/picture.jpg"
+    "/champs/:id": {
+      "get": {
+        "tags": [
+          "Champ"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "header",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
         }
       }
     }
+    
   }
+  
 }
