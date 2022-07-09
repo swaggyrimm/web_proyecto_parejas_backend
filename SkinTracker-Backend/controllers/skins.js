@@ -1,7 +1,6 @@
 const skins = require("../skins.json");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
-const { sendRecoveryCodeEmail } = require("../services/mailService");
 const db = require("../models/index");
 const saltRounds = 10;
 

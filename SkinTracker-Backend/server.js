@@ -27,8 +27,7 @@ const upload = multer({
   }),
 });
 
-const usersRoutes = require("./routes/users");
-const productsRoutes = require("./routes/products");
+const skinsRoutes = require("./routes/skins");
 const champsRoutes = require("./routes/champs");
 const swaggerFile = require("./swagger.json");
 
@@ -38,8 +37,7 @@ server.use(express.json());
 server.use(cors());
 
 //Mount routes
-server.use("/users", usersRoutes);
-server.use("/skins", productsRoutes);
+server.use("/skins", skinsRoutes);
 server.use("/champs", champsRoutes);
 
 //Documentation setup

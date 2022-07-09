@@ -1,7 +1,6 @@
 const skins = require("../champs.json");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
-const { sendRecoveryCodeEmail } = require("../services/mailService");
 const db = require("../models/index");
 const saltRounds = 10;
 
@@ -21,30 +20,17 @@ const saltRounds = 10;
   }
 
   // quiero conseguir la skin en específico que me mandan a busacr
-  exports.getSkinById = async (req, res) => {
+  exports.getChampById = async (req, res) => {
     // #swagger.tags = ['Users']}
     try {
-      const skinId = parseInt(req.params.id);
-      //skins es un arreglo, el arreglo donde busco el objeto del API
-      const result = skins.find(skin => skin.id === skinId.id);
+      const champId = parseInt(req.params.id);
+      //champs es un arreglo, el arreglo donde busco el objeto del API
+      const result = skins.find(skin => skin.id === champId.id);
       res.json(result);
     } catch (error) {
       res.status(500).send("Server error: " + error);
     }
   }
-
-  //no se si hacer todo este proceso es necesario,  no solo puedo traerme todo el json?
-  exports.listSkins = async (req, res) => {
-    // #swagger.tags = ['Users']
-    try {
-      //var array = [];
-      const productPayload = req.param.filter;//es necesario si es un get?
-      const result = skins;//devolvería el arreglo completo;
-      res.json(result);
-    } catch (error) {
-      res.status(500).send("Server error: " + error);
-    }
-  };
 
   //sort ints(prices) descending
 function priceSort(){
@@ -106,8 +92,6 @@ function dateSort(){
           array = skins;
       }
       const page = req.query.page;
-      //console.log(page)
-      //items = change(page,items);
       items = change(page, numItems);//preguntar si así paso un arreglo por param
       res.json(items);
     } catch (error) {
