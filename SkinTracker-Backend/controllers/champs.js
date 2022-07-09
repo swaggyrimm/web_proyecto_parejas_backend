@@ -4,11 +4,12 @@ const bcrypt = require("bcrypt");
 const db = require("../models/index");
 const saltRounds = 10;
 
-
+  // method that obtains the total pages for x items(in this case we'll show 10 items max)
   function totalPages(){
     return Math.ceil(skins.length/10);
   }
 
+  // method that changes the page and items shown
   function change(page, num){
     const items = [];
     if (page < 1) page = 1;
@@ -19,7 +20,7 @@ const saltRounds = 10;
     return items;
   }
 
-  // quiero conseguir la skin en específico que me mandan a busacr
+  // method that gets the champions by id
   exports.getChampById = async (req, res) => {
     // #swagger.tags = ['Users']}
     try {
@@ -32,43 +33,42 @@ const saltRounds = 10;
     }
   }
 
-  //sort ints(prices) descending
-function priceSort(){
-  return skins.sort((a, b) => {
-    return a.rp - b.rp;
-  });
-}
+  // method that sorts ints(prices) descending
+  function priceSort(){
+    return skins.sort((a, b) => {
+      return a.rp - b.rp;
+    });
+  }
 
-//sort strings(names)
-function nameSort(){
-  return skins.sort((a, b) => {
-    let fa = a.skin.toLowerCase(),
-        fb = b.skin.toLowerCase();
+  // method that sorts strings(names) descending
+  function nameSort(){
+    return skins.sort((a, b) => {
+      let fa = a.skin.toLowerCase(),
+          fb = b.skin.toLowerCase();
 
-    if (fa < fb) {
-        return -1;
-    }
-    if (fa > fb) {
-        return 1;
-    }
-    return 0;
-  });
-}
+      if (fa < fb) {
+          return -1;
+      }
+      if (fa > fb) {
+          return 1;
+      }
+      return 0;
+    });
+  }
 
-//sort by date
-function dateSort(){
-  return skins.sort((a, b) => {
-    let da = new Date(a.releaseDate),
-        db = new Date(b.releaseDate);
-    return da - db;
-  });
-}
+  // method that sorts by date
+  function dateSort(){
+    return skins.sort((a, b) => {
+      let da = new Date(a.releaseDate),
+          db = new Date(b.releaseDate);
+      return da - db;
+    });
+  }
 
-  //se supone que existen funciones que lo hacen en npm
+  // method that filters(sorts) the items by the requested filter
   exports.filterSearch = async (req, res) => {
     // #swagger.tags = ['Users']
     try {
-      //filter me imagino que viene del payload
       const sort = req.query.filter;
       const numItems = parseInt(req.query.items);
       let array = [];
@@ -92,7 +92,7 @@ function dateSort(){
           array = skins;
       }
       const page = req.query.page;
-      items = change(page, numItems);//preguntar si así paso un arreglo por param
+      items = change(page, numItems);
       res.json(items);
     } catch (error) {
       res.status(500).send("Server error: " + error);

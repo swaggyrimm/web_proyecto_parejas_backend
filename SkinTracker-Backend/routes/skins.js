@@ -7,7 +7,8 @@ const {
 
 const router = express.Router();
 
+// setting the different routes for the requests
 router.route("/").get(filterSearch);
-router.route("/:id").get(getSkinById);//preguntar al profe porque no sirve esta ruta
+router.route("/:id").get(getSkinById);
 
 module.exports = router;

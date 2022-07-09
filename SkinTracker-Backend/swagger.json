@@ -12,21 +12,10 @@
     "https"
   ],
   "paths": {
-    "/upload": {
-      "post": {
-        "description": "",
-        "parameters": [],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/skins/": {
       "get": {
         "tags": [
-          "Users"
+          "Skins"
         ],
         "description": "",
         "parameters": [
@@ -34,14 +23,21 @@
             "name": "filter",
             "in": "header",
             "type": "string"
+          },
+          {
+            "name": "page",
+            "in": "header",
+            "type": "string"
+          },
+          {
+            "name": "item",
+            "in": "header",
+            "type": "string"
           }
         ],
         "responses": {
           "200": {
             "description": "OK"
-          },
-          "401": {
-            "description": "Unauthorized"
           },
           "500": {
             "description": "Internal Server Error"

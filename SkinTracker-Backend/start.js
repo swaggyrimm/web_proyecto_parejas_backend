@@ -9,16 +9,14 @@ const doc = {
   host: "localhost:7500",
   schemes: ["http", "https"],
   definitions: {
-    AddUser: {
-      name: "CI0137",
-      email: "cloud@polpocr.com",
-      password: "patito",
-      phoneCountryCode: 506,
-      phone: 70155104,
-      birthdate: "1989-10-16",
+    GetSkin: {
+      name: "Nombre del skin",
+      price: 9999,
+      description: "Lorem ipsum kljdsf adsf asf adsf",
+      picture: "https://domain.com/picture.jpg",
     },
-    AddProduct: {
-      name: "Nombre del producto",
+    GetChamp: {
+      name: "Nombre del champ",
       price: 9999,
       description: "Lorem ipsum kljdsf adsf asf adsf",
       picture: "https://domain.com/picture.jpg",
