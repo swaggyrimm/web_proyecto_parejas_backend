@@ -1,7 +1,7 @@
 const express = require("express");
 const {
   getChampById,
-  filterSearch,
+  filterSearch
 } = require("../controllers/champs");
 
 

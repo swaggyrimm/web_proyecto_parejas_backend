@@ -30,6 +30,20 @@ const saltRounds = 10;
     return items;
   }
 
+    // method that gets the champions by id
+    exports.getChampSkinsByName = async (req, res) => {
+      // #swagger.tags = ['Users']}
+      try {
+        const champName = req.query.champ;
+        console.log("champ" + champName)
+        //champs es un arreglo, el arreglo donde busco el objeto del API
+        const result = skins.filter(skin => skin.champ === champName);
+        res.json(result);
+      } catch (error) {
+        res.status(500).send("Server error: " + error);
+      }
+    }
+
   // method that gets the champions by id
   exports.getSkinById = async (req, res) => {
     // #swagger.tags = ['Users']}

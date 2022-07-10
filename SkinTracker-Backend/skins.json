@@ -13,7 +13,7 @@
     {
       "id": 2, 
         "name": "skins[i].name", 
-        "champ": "kins[i].champ",
+        "champ": "Yasuo",
         "thumbnail": "",
         "releaseDate": "skins[i].releaseDate",
         "rp": 12,
@@ -24,7 +24,7 @@
     {
       "id": 3, 
         "name": "skins[i].name", 
-        "champ": "kins[i].champ",
+        "champ": "Yasuo",
         "thumbnail": "",
         "releaseDate": "skins[i].releaseDate",
         "rp": 13,
