@@ -9,7 +9,7 @@
     "rp": 975,
     "type": "Limitada",
     "available": "No disponible",
-    "text": "Descripcion default"
+    "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 2,
@@ -21,7 +21,7 @@
       "rp": 0,
       "type": "Artesanía Hextech",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 3,
@@ -33,7 +33,7 @@
       "rp": 1350,
       "type": "Epica",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 4,
@@ -45,7 +45,7 @@
       "rp": 975,
       "type": "Estandar",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 5,
@@ -57,7 +57,7 @@
       "rp": 975,
       "type": "Estandar",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 6,
@@ -69,7 +69,7 @@
       "rp": 1350,
       "type": "Epica",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 7,
@@ -81,7 +81,7 @@
       "rp": 750,
       "type": "Budget",
       "available": "No disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 8,
@@ -93,7 +93,7 @@
       "rp": 750,
       "type": "Budget",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 9,
@@ -105,7 +105,7 @@
       "rp": 1350,
       "type": "Epica",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 10,
@@ -117,7 +117,7 @@
       "rp": 1350,
       "type": "Epica",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 11,
@@ -129,7 +129,7 @@
       "rp": 975,
       "type": "Estandar",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 12,
@@ -141,7 +141,7 @@
       "rp": 1350,
       "type": "Epica",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 13,
@@ -153,7 +153,7 @@
       "rp": 1350,
       "type": "Epica",
       "available": "No disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 14,
@@ -165,7 +165,7 @@
       "rp": 1350,
       "type": "Epica",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 15,
@@ -177,7 +177,7 @@
       "rp": 1820,
       "type": "Legendaria",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 16,
@@ -189,7 +189,7 @@
       "rp": 975,
       "type": "Estandar",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 17,
@@ -201,7 +201,7 @@
       "rp": 750,
       "type": "Worlds Champions",
       "available": "No disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 18,
@@ -213,7 +213,7 @@
       "rp": 750,
       "type": "Budget",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 19,
@@ -225,7 +225,7 @@
       "rp": 750,
       "type": "Budget",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 20,
@@ -237,7 +237,7 @@
       "rp": 975,
       "type": "Evento",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 21,
@@ -249,7 +249,7 @@
       "rp": 1350,
       "type": "Epica",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 22,
@@ -261,7 +261,7 @@
       "rp": 1350,
       "type": "Epica",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 23,
@@ -273,7 +273,7 @@
       "rp": 1350,
       "type": "Epica",
       "available": "No disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 24,
@@ -285,7 +285,7 @@
       "rp": 975,
       "type": "Estandar",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 25,
@@ -297,7 +297,7 @@
       "rp": 1350,
       "type": "Epica",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 26,
@@ -309,7 +309,7 @@
       "rp": 1350,
       "type": "Epica",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 27,
@@ -321,7 +321,7 @@
       "rp": 1350,
       "type": "Epica",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 28,
@@ -333,7 +333,7 @@
       "rp": 1350,
       "type": "Epica",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 29,
@@ -345,7 +345,7 @@
       "rp": 1350,
       "type": "Worlds Champions",
       "available": "No disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 30,
@@ -357,7 +357,7 @@
       "rp": 975,
       "type": "Evento",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 31,
@@ -369,7 +369,7 @@
       "rp": 975,
       "type": "Estandar",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 32,
@@ -381,7 +381,7 @@
       "rp": 1350,
       "type": "Epica",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 33,
@@ -389,11 +389,11 @@
       "name": "Vi Reinos en Guerra",
       "thumbnail": "https://ci0137.s3.amazonaws.com/skintracker/thumbnail_vi-warringkingdoms.jpg",
       "image": "https://ci0137.s3.amazonaws.com/skintracker/vi-warringkingdoms.jpg",
-      "releaseDate": "textreleaseDate",
+      "releaseDate": "descriptionreleaseDate",
       "rp": 1350,
       "type": "Epica",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 34,
@@ -405,7 +405,7 @@
       "rp": 975,
       "type": "Estandar",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 35,
@@ -417,7 +417,7 @@
       "rp": 975,
       "type": "Estandar",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 36,
@@ -429,7 +429,7 @@
       "rp": 1350,
       "type": "Epica",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 37,
@@ -441,7 +441,7 @@
       "rp": 1350,
       "type": "Epica",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 38,
@@ -453,7 +453,7 @@
       "rp": 1350,
       "type": "Epica",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 39,
@@ -465,7 +465,7 @@
       "rp": 1350,
       "type": "Epica",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 40,
@@ -477,7 +477,7 @@
       "rp": 1820,
       "type": "Legendaria",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 41,
@@ -489,7 +489,7 @@
       "rp": 1350,
       "type": "Epica",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 42,
@@ -501,7 +501,7 @@
       "rp": 1820,
       "type": "Legendaria",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   },
   {
       "id": 43,
@@ -513,6 +513,6 @@
       "rp": 1350,
       "type": "Epica",
       "available": "Disponible",
-      "text": "Descripcion default"
+      "description": "Buscar las descripciones para tantas skins puede que haga que la pagina se vea bonita, pero no tengo tanto tiempo libre a final de semestre."
   }
 ]
