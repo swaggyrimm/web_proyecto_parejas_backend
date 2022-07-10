@@ -15,7 +15,17 @@ const saltRounds = 10;
     if (page < 1) page = 1;
     if (page > totalPages()) page = totalPages();
     for(let i = (page-1) * num; i < (page * num) && i < skins.length; i++){
-      items.push(skins[i]);
+      let item = { 
+        id: skins[i].id, 
+        name: skins[i].name, 
+        champ: skins[i].champ,
+        thumbnail: skins[i].thumbnail,
+        releaseDate: skins[i].releaseDate,
+        rp: skins[i].rp,
+        type: skins[i].type,
+        available:  skins[i].available
+      };
+      items.push(item);
     }
     return items;
   }

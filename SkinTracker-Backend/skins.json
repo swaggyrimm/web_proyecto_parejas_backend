@@ -1,68 +1,123 @@
 [
     {
-      "id": 1,
-      "skin": "Jax Baston Divino",
-      "image": "",
-      "rp": 1350
+      "id": 1, 
+        "name": "skins[i].name", 
+        "champ": "kins[i].champ",
+        "thumbnail": "",
+        "releaseDate": "skins[i].releaseDate",
+        "rp": 100,
+        "type": "skins[i].type",
+        "available":  "skins[i].available",
+        "description": "hey"
     },
     {
-      "id": 2,
-      "skin": "Jax Baston Divino",
-      "image": "",
-      "rp": 150
+      "id": 2, 
+        "name": "skins[i].name", 
+        "champ": "kins[i].champ",
+        "thumbnail": "",
+        "releaseDate": "skins[i].releaseDate",
+        "rp": 12,
+        "type": "skins[i].type",
+        "available":  "skins[i].available",
+        "description": "hey"
     },
     {
-      "id": 3,
-      "skin": "Jax Baston Divino",
-      "image": "",
-      "rp": 350
+      "id": 3, 
+        "name": "skins[i].name", 
+        "champ": "kins[i].champ",
+        "thumbnail": "",
+        "releaseDate": "skins[i].releaseDate",
+        "rp": 13,
+        "type": "skins[i].type",
+        "available":  "skins[i].available",
+        "description": "hey"
     },
     {
-      "id": 4,
-      "skin": "Jax Baston Divino",
-      "image": "",
-      "rp": 1350
+      "id": 4, 
+        "name": "skins[i].name", 
+        "champ": "kins[i].champ",
+        "thumbnail": "",
+        "releaseDate": "skins[i].releaseDate",
+        "rp": 14,
+        "type": "skins[i].type",
+        "available":  "skins[i].available",
+        "description": "hey"
     },
     {
-      "id": 5,
-      "skin": "Jax Baston Divino",
-      "image": "",
-      "rp": 1350
+      "id": 5, 
+        "name": "skins[i].name", 
+        "champ": "kins[i].champ",
+        "thumbnail": "",
+        "releaseDate": "skins[i].releaseDate",
+        "rp": 15,
+        "type": "skins[i].type",
+        "available":  "skins[i].available",
+        "description": "hey"
     },
     {
-      "id": 6,
-      "skin": "Jax Baston Divino",
-      "image": "",
-      "rp": 1350
+      "id": 6, 
+        "name": "skins[i].name", 
+        "champ": "kins[i].champ",
+        "thumbnail": "",
+        "releaseDate": "skins[i].releaseDate",
+        "rp": 16,
+        "type": "skins[i].type",
+        "available":  "skins[i].available",
+        "description": "hey"
     },
     {
-      "id": 7,
-      "skin": "Jax Baston Divino",
-      "image": "",
-      "rp": 1350
+      "id": 7, 
+        "name": "skins[i].name", 
+        "champ": "kins[i].champ",
+        "thumbnail": "",
+        "releaseDate": "skins[i].releaseDate",
+        "rp": 17,
+        "type": "skins[i].type",
+        "available":  "skins[i].available",
+        "description": "hey"
     },
     {
-      "id": 8,
-      "skin": "Jax Baston Divino",
-      "image": "",
-      "rp": 1350
+      "id": 8, 
+        "name": "skins[i].name", 
+        "champ": "kins[i].champ",
+        "thumbnail": "",
+        "releaseDate": "skins[i].releaseDate",
+        "rp": 18,
+        "type": "skins[i].type",
+        "available":  "skins[i].available",
+        "description": "hey"
     },
     {
-      "id": 9,
-      "skin": "Jax Baston Divino",
-      "image": "",
-      "rp": 1350
+      "id": 9, 
+        "name": "skins[i].name", 
+        "champ": "kins[i].champ",
+        "thumbnail": "",
+        "releaseDate": "skins[i].releaseDate",
+        "rp": 19,
+        "type": "skins[i].type",
+        "available":  "skins[i].available",
+        "description": "hey"
     },
     {
-      "id": 10,
-      "skin": "Jax Baston Divino",
-      "image": "",
-      "rp": 1350
+      "id": 10, 
+        "name": "skins[i].name", 
+        "champ": "kins[i].champ",
+        "thumbnail": "",
+        "releaseDate": "skins[i].releaseDate",
+        "rp": 10,
+        "type": "skins[i].type",
+        "available":  "skins[i].available",
+        "description": "hey"
     },
     {
-      "id": 11,
-      "skin": "Jax Baston Divino",
-      "image": "",
-      "rp": 1
+      "id": 11, 
+        "name": "skins[i].name", 
+        "champ": "kins[i].champ",
+        "thumbnail": "",
+        "releaseDate": "skins[i].releaseDate",
+        "rp": 11,
+        "type": "skins[i].type",
+        "available":  "skins[i].available",
+        "description": "hey"
     }
   ]
