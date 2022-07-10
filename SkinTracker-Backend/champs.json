@@ -2,58 +2,58 @@
     {
       "id": 1,
       "name": "Annie",
-      "title": "la hija de la oscuridad",
-      "thumbnail": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251",
-      "image": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251"
+      "title": "la Hija de la Oscuridad",
+      "thumbnail": "https://ci0137.s3.amazonaws.com/skintracker/thumbnail_annie.jpg",
+      "image": "https://ci0137.s3.amazonaws.com/skintracker/annie.jpg"
     },
     {
       "id": 2,
       "name": "Ekko",
-      "title": "el joven que fragmentó el tiempo",
-      "thumbnail": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251",
-      "image": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251"
+      "title": "el Joven que Fragmentó el Tiempo",
+      "thumbnail": "https://ci0137.s3.amazonaws.com/skintracker/thumbnail_ekko.jpg",
+      "image": "https://ci0137.s3.amazonaws.com/skintracker/ekko.jpg"
     },
     {
       "id": 3,
       "name": "Jax",
-      "title": "el maestro de armas",
-      "thumbnail": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251",
-      "image": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251"
+      "title": "el Maestro de Armas",
+      "thumbnail": "https://ci0137.s3.amazonaws.com/skintracker/thumbnail_jax.jpg",
+      "image": "https://ci0137.s3.amazonaws.com/skintracker/jax.jpg"
     },
     {
       "id": 4,
       "name": "Jinx",
-      "title": "la bala perdida",
-      "thumbnail": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251",
-      "image": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251"
+      "title": "la Bala Perdida",
+      "thumbnail": "https://ci0137.s3.amazonaws.com/skintracker/thumbnail_jinx.jpg",
+      "image": "https://ci0137.s3.amazonaws.com/skintracker/jinx.jpg"
     },
     {
       "id": 5,
       "name": "Taliyah",
-      "title": "la tejedora de piedra",
-      "thumbnail": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251",
-      "image": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251"
+      "title": "la Tejedora de Piedra",
+      "thumbnail": "https://ci0137.s3.amazonaws.com/skintracker/thumbnail_taliyah.jpg",
+      "image": "https://ci0137.s3.amazonaws.com/skintracker/taliyah.jpg"
     },
     {
       "id": 6,
       "name": "Vi",
-      "title": "la vigilidante de Piltóver",
-      "thumbnail": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251",
-      "image": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251"
+      "title": "la Vigilidante de Piltóver",
+      "thumbnail": "https://ci0137.s3.amazonaws.com/skintracker/thumbnail_vi.jpg",
+      "image": "https://ci0137.s3.amazonaws.com/skintracker/vi.jpg"
     },
     {
       "id": 7,
       "name": "Yasuo",
-      "title": "el imperdonable",
-      "thumbnail": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251",
-      "image": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251"
+      "title": "el Imperdonable",
+      "thumbnail": "https://ci0137.s3.amazonaws.com/skintracker/thumbnail_yasuo.jpg",
+      "image": "https://ci0137.s3.amazonaws.com/skintracker/yasuo.jpg"
     },
     {
       "id": 8,
       "name": "Yone",
-      "title": "el imborrable",
-      "thumbnail": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251",
-      "image": "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Bard_OriginalLoading.jpg/revision/latest/scale-to-width-down/276?cb=20200424212251"
+      "title": "el Imborrable",
+      "thumbnail": "https://ci0137.s3.amazonaws.com/skintracker/thumbnail_yone.jpg",
+      "image": "https://ci0137.s3.amazonaws.com/skintracker/yone.jpg"
     }
   ]
 
