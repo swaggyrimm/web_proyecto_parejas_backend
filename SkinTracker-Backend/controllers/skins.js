@@ -6,7 +6,7 @@ const saltRounds = 10;
 
   // method that obtains the total pages for x items(in this case we'll show 10 items max)
   function totalPages(){
-    return Math.ceil(skins.length/10);
+    return Math.ceil(skins.length/10); // TODO: Ver que haber cambiado esto por 8 no haya roto todo
   }
 
   // method that changes the page and items shown
