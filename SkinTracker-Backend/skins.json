@@ -482,7 +482,7 @@
   {
       "id": 41,
       "champ": "Yone",
-      "name": "Yone ",
+      "name": "Yone Academia",
       "thumbnail": "https://ci0137.s3.amazonaws.com/skintracker/thumbnail_yone-battleacademia.jpg",
       "image": "https://ci0137.s3.amazonaws.com/skintracker/yone-battleacademia.jpg",
       "releaseDate": "textreleaseDate",
@@ -494,9 +494,21 @@
   {
       "id": 42,
       "champ": "Yone",
-      "name": "Yone ",
+      "name": "Yone Portador del Amanecer",
       "thumbnail": "https://ci0137.s3.amazonaws.com/skintracker/thumbnail_yone-dawnbringer.jpg",
       "image": "https://ci0137.s3.amazonaws.com/skintracker/yone-dawnbringer.jpg",
+      "releaseDate": "textreleaseDate",
+      "rp": 975,
+      "type": "Standard",
+      "available":  "Disponible",
+      "text": "Descripcion default"
+  },
+  {
+      "id": 43,
+      "champ": "Yone",
+      "name": "Yone Flor Espiritual",
+      "thumbnail": "https://ci0137.s3.amazonaws.com/skintracker/thumbnail_yone-spiritblossom.jpg",
+      "image": "https://ci0137.s3.amazonaws.com/skintracker/yone-spiritblossom.jpg",
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
