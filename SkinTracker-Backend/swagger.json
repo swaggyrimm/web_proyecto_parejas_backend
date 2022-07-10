@@ -23,39 +23,6 @@
         }
       }
     },
-    "/skins/": {
-      "get": {
-        "tags": [
-          "Users"
-        ],
-        "description": "",
-        "parameters": [
-          {
-            "name": "filter",
-            "in": "query",
-            "type": "string"
-          },
-          {
-            "name": "items",
-            "in": "query",
-            "type": "string"
-          },
-          {
-            "name": "page",
-            "in": "query",
-            "type": "string"
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          },
-          "500": {
-            "description": "Internal Server Error"
-          }
-        }
-      }
-    },
     "/skins/{id}": {
       "get": {
         "tags": [
