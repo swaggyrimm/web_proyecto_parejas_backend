@@ -5,10 +5,10 @@
     "name": "Annie Gotica",
     "thumbnail": "https://ci0137.s3.amazonaws.com/skintracker/thumbnail_annie-goth.jpg",
     "image": "https://ci0137.s3.amazonaws.com/skintracker/annie-goth.jpg",
-    "releaseDate": "textreleaseDate",
+    "releaseDate": "27/10/2009",
     "rp": 975,
-    "type": "Standard",
-    "available":  "Disponible",
+    "type": "Limitada",
+    "available": "No disponible",
     "text": "Descripcion default"
   },
   {
@@ -17,10 +17,10 @@
       "name": "Annie Hextech",
       "thumbnail": "https://ci0137.s3.amazonaws.com/skintracker/thumbnail_annie-hextech.jpg",
       "image": "https://ci0137.s3.amazonaws.com/skintracker/annie-hextech.jpg",
-      "releaseDate": "textreleaseDate",
-      "rp": 975,
-      "type": "Standard",
-      "available":  "Disponible",
+      "releaseDate": "15/03/2016",
+      "rp": 0,
+      "type": "Artesanía Hextech",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -29,10 +29,10 @@
       "name": "Annie Bestia Lunar",
       "thumbnail": "https://ci0137.s3.amazonaws.com/skintracker/thumbnail_annie-lunarbeast.jpg",
       "image": "https://ci0137.s3.amazonaws.com/skintracker/annie-lunarbeast.jpg",
-      "releaseDate": "textreleaseDate",
-      "rp": 975,
-      "type": "Standard",
-      "available":  "Disponible",
+      "releaseDate": "04/02/2021",
+      "rp": 1350,
+      "type": "Epica",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -41,10 +41,10 @@
       "name": "Annie Osito Panda",
       "thumbnail": "https://ci0137.s3.amazonaws.com/skintracker/thumbnail_annie-panda.jpg",
       "image": "https://ci0137.s3.amazonaws.com/skintracker/annie-panda.jpg",
-      "releaseDate": "textreleaseDate",
+      "releaseDate": "08/02/2013",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -53,10 +53,10 @@
       "name": "Annie al Reves",
       "thumbnail": "https://ci0137.s3.amazonaws.com/skintracker/thumbnail_annie-reverse.jpg",
       "image": "https://ci0137.s3.amazonaws.com/skintracker/annie-reverse.jpg",
-      "releaseDate": "textreleaseDate",
+      "releaseDate": "05/09/2011",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -65,10 +65,10 @@
       "name": "Annie Supergalatica",
       "thumbnail": "https://ci0137.s3.amazonaws.com/skintracker/thumbnail_annie-supergalaxy.jpg",
       "image": "https://ci0137.s3.amazonaws.com/skintracker/annie-supergalaxy.jpg",
-      "releaseDate": "textreleaseDate",
-      "rp": 975,
-      "type": "Standard",
-      "available":  "Disponible",
+      "releaseDate": "16/10/2017",
+      "rp": 1350,
+      "type": "Epica",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -77,10 +77,10 @@
       "name": "Annie Cariñosa",
       "thumbnail": "https://ci0137.s3.amazonaws.com/skintracker/thumbnail_annie-sweetheart.jpg",
       "image": "https://ci0137.s3.amazonaws.com/skintracker/annie-sweetheart.jpg",
-      "releaseDate": "textreleaseDate",
-      "rp": 975,
+      "releaseDate": "13/02/2015",
+      "rp": 750,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "No disponible",
       "text": "Descripcion default"
   },
   {
@@ -92,7 +92,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -104,7 +104,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -116,7 +116,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -128,7 +128,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -140,7 +140,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -152,7 +152,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -164,7 +164,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -176,7 +176,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -188,7 +188,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -200,7 +200,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -212,7 +212,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -224,7 +224,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -236,7 +236,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -248,7 +248,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -260,7 +260,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -272,7 +272,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -284,7 +284,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -296,7 +296,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -308,7 +308,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -320,7 +320,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -332,7 +332,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -344,7 +344,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -356,7 +356,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -368,7 +368,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -380,7 +380,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -392,7 +392,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -404,7 +404,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -416,7 +416,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -428,7 +428,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -440,7 +440,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -452,7 +452,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -464,7 +464,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -476,7 +476,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -488,7 +488,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -500,7 +500,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   },
   {
@@ -512,7 +512,7 @@
       "releaseDate": "textreleaseDate",
       "rp": 975,
       "type": "Standard",
-      "available":  "Disponible",
+      "available": "Disponible",
       "text": "Descripcion default"
   }
 ]
