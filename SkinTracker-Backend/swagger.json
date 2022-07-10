@@ -23,6 +23,16 @@
         }
       }
     },
+    "/skins/champ": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "description": "",
+        "parameters": [],
+        "responses": {}
+      }
+    },
     "/skins/{id}": {
       "get": {
         "tags": [
