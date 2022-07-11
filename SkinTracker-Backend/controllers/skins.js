@@ -80,8 +80,8 @@ const saltRounds = 10;
   // method that sorts strings(names) descending
   function nameSort(){
     return skins.sort((a, b) => {
-      let fa = a.skin.toLowerCase(),
-          fb = b.skin.toLowerCase();
+      let fa = a.name.toLowerCase(),
+          fb = b.name.toLowerCase();
 
       if (fa < fb) {
           return -1;
